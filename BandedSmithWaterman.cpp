@@ -1,5 +1,7 @@
 #include "BandedSmithWaterman.h"
 
+using namespace std;
+
 // define our static constants
 const float CBandedSmithWaterman::FLOAT_NEGATIVE_INFINITY = (float)-1e+30;
 

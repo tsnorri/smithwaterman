@@ -2,7 +2,5 @@
 #include <string>
 #include <map>
 
-using namespace std;
-
-map<string, int> repeatCounts(long int pos, const string& seq, int maxsize);
-bool isRepeatUnit(const string& seq, const string& unit);
+std::map<std::string, int> repeatCounts(long int pos, const std::string& seq, int maxsize);
+bool isRepeatUnit(const std::string& seq, const std::string& unit);

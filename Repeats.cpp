@@ -1,5 +1,7 @@
 #include "Repeats.h"
 
+using namespace std;
+
 map<string, int> repeatCounts(long int position, const string& sequence, int maxsize) {
     map<string, int> counts;
     for (int i = 1; i <= maxsize; ++i) {

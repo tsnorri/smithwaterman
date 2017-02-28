@@ -1,5 +1,7 @@
 #include "SmithWatermanGotoh.h"
 
+using namespace std;
+
 const float CSmithWatermanGotoh::FLOAT_NEGATIVE_INFINITY = (float)-1e+30;
 
 const char CSmithWatermanGotoh::Directions_STOP     = 0;

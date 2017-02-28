@@ -1,5 +1,7 @@
 #include "LeftAlign.h"
 
+using namespace std;
+
 //bool debug;
 #define VERBOSE_DEBUG
 

@@ -13,8 +13,6 @@
 #include "Repeats.h"
 #include "LeftAlign.h"
 
-using namespace std;
-
 #define MOSAIK_NUM_NUCLEOTIDES 26
 #define GAP '-'
 
@@ -25,7 +23,7 @@ public:
     // destructor
     ~CSmithWatermanGotoh(void);
     // aligns the query sequence to the reference using the Smith Waterman Gotoh algorithm
-    void Align(unsigned int& referenceAl, string& cigarAl, const string& s1, const string& s2);
+    void Align(unsigned int& referenceAl, std::string& cigarAl, const std::string& s1, const std::string& s2);
     // enables homo-polymer scoring
     void EnableHomoPolymerGapPenalty(float hpGapOpenPenalty);
     // enables non-repeat gap open penalty
