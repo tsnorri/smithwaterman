@@ -5,8 +5,6 @@
 #include <iostream>
 #include <sstream>
 
-using namespace std;
-
 class IndelAllele {
     friend std::ostream& operator<<(std::ostream&, const IndelAllele&);
     friend bool operator==(const IndelAllele&, const IndelAllele&);
